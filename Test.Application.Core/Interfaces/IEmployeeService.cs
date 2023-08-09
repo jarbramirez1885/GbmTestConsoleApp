@@ -9,7 +9,20 @@ namespace Test.Application.Core.Interfaces
 {
     public interface IEmployeeService
     {
+        /// <summary>
+        /// 
+        /// </summary>
         void GetEmployees();
-        void GetFile();
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="fileName"></param>
+        void GetFile(string fileName);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        void LoadRecords();
     }
 }

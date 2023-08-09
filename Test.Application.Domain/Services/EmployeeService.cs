@@ -19,6 +19,9 @@ namespace Test.Application.Domain.Services
             _repository = repository;
         }
 
+        /// <summary>
+        /// Get List of Employees
+        /// </summary>
         public void GetEmployees()
         {
             try
@@ -61,15 +64,34 @@ namespace Test.Application.Domain.Services
             }
         }
 
-        public void GetFile()
+        /// <summary>
+        /// Get File with all records
+        /// </summary>
+        /// <param name="fileName"></param>
+        public void GetFile(string fileName)
         {
             try
             {
-                _repository.GetFile();
+                _repository.GetFile(fileName);
             }
             catch (Exception ex)
             {
 
+                System.Console.WriteLine(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void LoadRecords()
+        {
+            try
+            {
+                _repository.LoadRecords();
+            }
+            catch (Exception ex)
+            {
                 System.Console.WriteLine(ex.Message);
             }
         }

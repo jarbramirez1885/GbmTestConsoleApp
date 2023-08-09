@@ -29,12 +29,13 @@ internal class Program
         IEmployeeService generador = Injector.GetService<IEmployeeService>();
 
         System.Console.Clear();
+        System.Console.ForegroundColor = ConsoleColor.Blue;
         System.Console.WriteLine("Managment Employees \n" +
         "\n1.- Get list of employees" +
-        "\n2.- Insert employees data" +
-        "\n3.- Download file" +
+        "\n2.- Insert employees from file" +
+        "\n3.- Download file csv" +
         "\n4.- Exit" +
-        "\nSelect your choise: "
+        "\nSelect your choise: ", System.Console.ForegroundColor
         );
 
         string? option;
@@ -43,23 +44,33 @@ internal class Program
         switch (option)
         {
             case "1":
+                System.Console.ForegroundColor = ConsoleColor.Green;
                 generador.GetEmployees();
                 System.Console.ReadLine();
                 break;
             case "2":
-                //Triangle triangle = new();
-                //triangle.CalculateTriangleArea();
+                System.Console.Clear();
+                System.Console.WriteLine(GeneralMessages.LOADINGFILE);
+                generador.LoadRecords();
                 break;
             case "3":
-                generador.GetFile();
+                System.Console.Clear();
+                System.Console.ForegroundColor = ConsoleColor.Green;
+                System.Console.WriteLine(GeneralMessages.FILENAME);
+                string? fileName = string.Empty;
+                fileName = System.Console.ReadLine();
+                System.Console.WriteLine(GeneralMessages.CREATINGFILE);
+                generador.GetFile(fileName);
                 break;
             case "4":
+                System.Console.ForegroundColor = ConsoleColor.Green;
                 System.Console.WriteLine(GeneralMessages.BYE);
                 System.Console.WriteLine(GeneralMessages.CONFIRM);
                 System.Console.ReadLine();
                 Environment.Exit(1);
                 break;
             default:
+                System.Console.ForegroundColor = ConsoleColor.Green;
                 System.Console.WriteLine(GeneralMessages.ERROROPMENU);
                 System.Console.ReadLine();
                 break;

@@ -9,8 +9,21 @@ namespace Test.Application.Core.Interfaces
 {
     public interface IRepository
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         Task<List<Employee>> GetEmployees();
 
-        void GetFile();
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="fileName"></param>
+        void GetFile(string fileName);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        void LoadRecords();
     }
 }
