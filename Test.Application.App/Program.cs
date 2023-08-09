@@ -33,7 +33,8 @@ internal class Program
         System.Console.WriteLine("Managment Employees \n" +
         "\n1.- Get list of employees" +
         "\n2.- Insert employees data" +
-        "\n3.- Exit" +
+        "\n3.- Download file" +
+        "\n4.- Exit" +
         "\nSelect your choise: "
         );
 
@@ -51,6 +52,10 @@ internal class Program
                 //triangle.CalculateTriangleArea();
                 break;
             case "3":
+                //Triangle triangle = new();
+                //triangle.CalculateTriangleArea();
+                break;
+            case "4":
                 System.Console.WriteLine(GeneralMessages.BYE);
                 System.Console.WriteLine(GeneralMessages.CONFIRM);
                 System.Console.ReadLine();

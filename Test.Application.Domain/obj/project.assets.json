@@ -3255,11 +3255,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repo\\PruebaConsole\\Console.App\\Test.Application.Domain\\Test.Application.Domain.csproj",
+      "projectUniqueName": "D:\\repo\\GbmTestConsoleApp\\Test.Application.Domain\\Test.Application.Domain.csproj",
       "projectName": "Test.Application.Domain",
-      "projectPath": "D:\\repo\\PruebaConsole\\Console.App\\Test.Application.Domain\\Test.Application.Domain.csproj",
+      "projectPath": "D:\\repo\\GbmTestConsoleApp\\Test.Application.Domain\\Test.Application.Domain.csproj",
       "packagesPath": "C:\\Users\\jarbr\\.nuget\\packages\\",
-      "outputPath": "D:\\repo\\PruebaConsole\\Console.App\\Test.Application.Domain\\obj\\",
+      "outputPath": "D:\\repo\\GbmTestConsoleApp\\Test.Application.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -3281,8 +3281,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\repo\\PruebaConsole\\Console.App\\Test.Application.Infraestructure\\Test.Application.Infrastructure.csproj": {
-              "projectPath": "D:\\repo\\PruebaConsole\\Console.App\\Test.Application.Infraestructure\\Test.Application.Infrastructure.csproj"
+            "D:\\repo\\GbmTestConsoleApp\\Test.Application.Infraestructure\\Test.Application.Infrastructure.csproj": {
+              "projectPath": "D:\\repo\\GbmTestConsoleApp\\Test.Application.Infraestructure\\Test.Application.Infrastructure.csproj"
             }
           }
         }
