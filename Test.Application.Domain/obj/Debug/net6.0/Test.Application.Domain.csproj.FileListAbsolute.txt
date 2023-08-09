@@ -1,0 +1,17 @@
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\bin\Debug\net6.0\Test.Application.Domain.deps.json
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\bin\Debug\net6.0\Test.Application.Domain.dll
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\bin\Debug\net6.0\Test.Application.Domain.pdb
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\bin\Debug\net6.0\Test.Application.Core.dll
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\bin\Debug\net6.0\Test.Application.Infrastructure.dll
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\bin\Debug\net6.0\Test.Application.Infrastructure.pdb
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\bin\Debug\net6.0\Test.Application.Core.pdb
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\obj\Debug\net6.0\Test.Application.Domain.csproj.AssemblyReference.cache
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\obj\Debug\net6.0\Test.Application.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\obj\Debug\net6.0\Test.Application.Domain.AssemblyInfoInputs.cache
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\obj\Debug\net6.0\Test.Application.Domain.AssemblyInfo.cs
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\obj\Debug\net6.0\Test.Application.Domain.csproj.CoreCompileInputs.cache
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\obj\Debug\net6.0\Test.Application.Domain.csproj.CopyComplete
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\obj\Debug\net6.0\Test.Application.Domain.dll
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\obj\Debug\net6.0\refint\Test.Application.Domain.dll
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\obj\Debug\net6.0\Test.Application.Domain.pdb
+D:\repo\PruebaConsole\Console.App\Test.Application.Domain\obj\Debug\net6.0\ref\Test.Application.Domain.dll

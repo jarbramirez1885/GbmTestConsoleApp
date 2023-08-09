@@ -1,0 +1,17 @@
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\bin\Debug\net6.0\Console.Infrastructure.deps.json
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\bin\Debug\net6.0\Console.Infrastructure.runtimeconfig.json
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\bin\Debug\net6.0\Console.Infrastructure.dll
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\bin\Debug\net6.0\Console.Infrastructure.pdb
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\bin\Debug\net6.0\Console.Core.dll
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\bin\Debug\net6.0\Console.Core.pdb
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infrastructure.csproj.AssemblyReference.cache
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infrastructure.AssemblyInfoInputs.cache
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infrastructure.AssemblyInfo.cs
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infrastructure.csproj.CoreCompileInputs.cache
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infrastructure.csproj.CopyComplete
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infrastructure.dll
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\refint\Console.Infrastructure.dll
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infrastructure.pdb
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infrastructure.genruntimeconfig.cache
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\ref\Console.Infrastructure.dll

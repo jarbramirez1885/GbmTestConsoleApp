@@ -1,0 +1,5 @@
+D:\repo\PruebaConsole\Console.App\Console.App\bin\Release\net6.0\publish\Console.App.exe
+D:\repo\PruebaConsole\Console.App\Console.App\bin\Release\net6.0\publish\Console.App.dll
+D:\repo\PruebaConsole\Console.App\Console.App\bin\Release\net6.0\publish\Console.App.deps.json
+D:\repo\PruebaConsole\Console.App\Console.App\bin\Release\net6.0\publish\Console.App.runtimeconfig.json
+D:\repo\PruebaConsole\Console.App\Console.App\bin\Release\net6.0\publish\Console.App.pdb

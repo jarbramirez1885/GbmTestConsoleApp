@@ -1,0 +1,17 @@
+D:\repo\PruebaConsole\Console.App\Console.Domain\bin\Debug\net6.0\Console.Domain.deps.json
+D:\repo\PruebaConsole\Console.App\Console.Domain\bin\Debug\net6.0\Console.Domain.dll
+D:\repo\PruebaConsole\Console.App\Console.Domain\bin\Debug\net6.0\Console.Domain.pdb
+D:\repo\PruebaConsole\Console.App\Console.Domain\bin\Debug\net6.0\Console.Core.dll
+D:\repo\PruebaConsole\Console.App\Console.Domain\bin\Debug\net6.0\Console.Infrastructure.dll
+D:\repo\PruebaConsole\Console.App\Console.Domain\bin\Debug\net6.0\Console.Infrastructure.pdb
+D:\repo\PruebaConsole\Console.App\Console.Domain\bin\Debug\net6.0\Console.Core.pdb
+D:\repo\PruebaConsole\Console.App\Console.Domain\obj\Debug\net6.0\Console.Domain.csproj.AssemblyReference.cache
+D:\repo\PruebaConsole\Console.App\Console.Domain\obj\Debug\net6.0\Console.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\PruebaConsole\Console.App\Console.Domain\obj\Debug\net6.0\Console.Domain.AssemblyInfoInputs.cache
+D:\repo\PruebaConsole\Console.App\Console.Domain\obj\Debug\net6.0\Console.Domain.AssemblyInfo.cs
+D:\repo\PruebaConsole\Console.App\Console.Domain\obj\Debug\net6.0\Console.Domain.csproj.CoreCompileInputs.cache
+D:\repo\PruebaConsole\Console.App\Console.Domain\obj\Debug\net6.0\Console.Domain.csproj.CopyComplete
+D:\repo\PruebaConsole\Console.App\Console.Domain\obj\Debug\net6.0\Console.Domain.dll
+D:\repo\PruebaConsole\Console.App\Console.Domain\obj\Debug\net6.0\refint\Console.Domain.dll
+D:\repo\PruebaConsole\Console.App\Console.Domain\obj\Debug\net6.0\Console.Domain.pdb
+D:\repo\PruebaConsole\Console.App\Console.Domain\obj\Debug\net6.0\ref\Console.Domain.dll
