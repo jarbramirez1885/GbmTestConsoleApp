@@ -10,5 +10,7 @@ namespace Test.Application.Core.Interfaces
     public interface IRepository
     {
         Task<List<Employee>> GetEmployees();
+
+        void GetFile();
     }
 }

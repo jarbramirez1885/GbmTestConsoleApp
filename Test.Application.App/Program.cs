@@ -26,7 +26,6 @@ internal class Program
         serviceProvider.AddSingleton<IRepository, Repository>();
 
         Injector.GenerarProveedor(serviceProvider);
-        //Obtengo clase desde el IOC
         IEmployeeService generador = Injector.GetService<IEmployeeService>();
 
         System.Console.Clear();
@@ -52,8 +51,7 @@ internal class Program
                 //triangle.CalculateTriangleArea();
                 break;
             case "3":
-                //Triangle triangle = new();
-                //triangle.CalculateTriangleArea();
+                generador.GetFile();
                 break;
             case "4":
                 System.Console.WriteLine(GeneralMessages.BYE);

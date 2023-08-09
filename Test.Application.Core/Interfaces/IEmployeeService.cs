@@ -10,5 +10,6 @@ namespace Test.Application.Core.Interfaces
     public interface IEmployeeService
     {
         void GetEmployees();
+        void GetFile();
     }
 }

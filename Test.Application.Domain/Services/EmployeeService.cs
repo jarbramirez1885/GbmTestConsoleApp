@@ -57,7 +57,20 @@ namespace Test.Application.Domain.Services
             }
             catch (Exception ex)
             {
-                System.Console.WriteLine(ex.Message); ;
+                System.Console.WriteLine(ex.Message);
+            }
+        }
+
+        public void GetFile()
+        {
+            try
+            {
+                _repository.GetFile();
+            }
+            catch (Exception ex)
+            {
+
+                System.Console.WriteLine(ex.Message);
             }
         }
     }
