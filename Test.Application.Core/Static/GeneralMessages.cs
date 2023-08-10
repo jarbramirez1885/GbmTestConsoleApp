@@ -11,9 +11,10 @@ namespace Test.Application.Core.Static
         public readonly static string SEARCHING = "Please wait, Searching records...";
         public readonly static string CREATINGFILE = "Please wait, creating your file...";
         public readonly static string LOADINGFILE = "Please wait, loading your file...";
-        public readonly static string FILENAME = "Write a name for your file: ";
+        public readonly static string FILENAME = "Write the full path and name for your file for downloading: ";
         public readonly static string READYFILE = "Your file is ready! Press enter to return to main menu";
         public readonly static string FILEUPLOADED = "Your file was uploaded! Press enter to return to the main menu";
+        public readonly static string FILENAMEUPLOAD = "Please write the complete path of the file to upload: ";
         public readonly static string[] FILEHEAD =
             {
                 "EmployeeID", 
