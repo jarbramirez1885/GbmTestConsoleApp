@@ -72,11 +72,11 @@ namespace Test.Application.Domain.Services
         /// Get File with all records
         /// </summary>
         /// <param name="fileName"></param>
-        public void GetFile(string fileName)
+        public void GetFile()
         {
             try
             {
-                _repository.GetFile(fileName);
+                _repository.GetFile();
             }
             catch (Exception ex)
             {

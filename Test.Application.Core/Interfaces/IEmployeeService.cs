@@ -18,7 +18,7 @@ namespace Test.Application.Core.Interfaces
         /// 
         /// </summary>
         /// <param name="fileName"></param>
-        void GetFile(string fileName);
+        void GetFile();
 
         /// <summary>
         /// 

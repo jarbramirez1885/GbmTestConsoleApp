@@ -54,17 +54,12 @@ internal class Program
             case "2":
                 System.Console.Clear();
                 System.Console.ForegroundColor = ConsoleColor.Green;
-                System.Console.WriteLine(GeneralMessages.LOADINGFILE);
                 generador.LoadRecords();
                 break;
             case "3":
                 System.Console.Clear();
                 System.Console.ForegroundColor = ConsoleColor.Green;
-                System.Console.WriteLine(GeneralMessages.FILENAME);
-                string? fileName = string.Empty;
-                fileName = System.Console.ReadLine();
-                System.Console.WriteLine(GeneralMessages.CREATINGFILE);
-                generador.GetFile(fileName);
+                generador.GetFile();
                 break;
             case "4":
                 System.Console.ForegroundColor = ConsoleColor.Green;

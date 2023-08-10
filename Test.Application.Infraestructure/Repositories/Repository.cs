@@ -49,17 +49,23 @@ namespace Test.Application.Infrastructure.Repositories
         /// </summary>
         /// <param name="fileName"></param>
         /// <exception cref="Exception"></exception>
-        public void GetFile(string fileName)
+        public void GetFile()
         {
             try
             {
-                List<Employee> employees = new();
+                System.Console.WriteLine(GeneralMessages.FILENAME);
+                string? fileNameFullPath = string.Empty;
+                fileNameFullPath = System.Console.ReadLine();
 
+                System.Console.WriteLine(GeneralMessages.CREATINGFILE);
                 System.Console.WriteLine(GeneralMessages.SEARCHING);
 
+                List<Employee> employees = new();
                 employees = _contextDb.Employees.ToList();
                 string fechaHora = System.DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
-                string file = @"C:\Users\jarbr\Downloads\" + fileName + "_" + fechaHora + ".csv";
+
+                //string file = @"C:\Users\jarbr\Downloads\" + fileName + "_" + fechaHora + ".csv";
+                string file = fileNameFullPath + "_" + fechaHora + ".csv";
                 string separator = ";";
                 StringBuilder output = new();
                 string[] headings = GeneralMessages.FILEHEAD;
@@ -113,13 +119,17 @@ namespace Test.Application.Infrastructure.Repositories
         {
             try
             {
-                string fileLocation = @"C:\Users\jarbr\Downloads\EmployeesToLoad.csv";
+                System.Console.WriteLine(GeneralMessages.FILENAMEUPLOAD);
+                string? fileName = string.Empty;
+                fileName = System.Console.ReadLine();
+                string fileLocation =  fileName + ".csv";
                 StreamReader file = new(fileLocation);
                 string separador = ";";
                 string line;
 
                 file.ReadLine();
 
+                System.Console.WriteLine(GeneralMessages.LOADINGFILE);
                 System.Console.WriteLine(fileLocation);
 
                 while ((line = file.ReadLine()) != null)
