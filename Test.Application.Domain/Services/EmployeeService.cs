@@ -1,10 +1,4 @@
 ﻿using Console.Infrastructure.Console.Core.Entities;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Test.Application.Core.Interfaces;
 using Test.Application.Core.Static;
 
@@ -12,13 +6,18 @@ namespace Test.Application.Domain.Services
 {
     public class EmployeeService : IEmployeeService
     {
+        #region Properties
         private readonly IRepository _repository;
+        #endregion
 
+        #region Construct
         public EmployeeService(IRepository repository)
         {
             _repository = repository;
         }
+        #endregion
 
+        #region Public methods
         /// <summary>
         /// Get List of Employees
         /// </summary>
@@ -71,7 +70,6 @@ namespace Test.Application.Domain.Services
         /// <summary>
         /// Get File with all records
         /// </summary>
-        /// <param name="fileName"></param>
         public void GetFile()
         {
             try
@@ -87,7 +85,7 @@ namespace Test.Application.Domain.Services
         }
 
         /// <summary>
-        /// 
+        /// Load Records from csv
         /// </summary>
         public void LoadRecords()
         {
@@ -102,5 +100,6 @@ namespace Test.Application.Domain.Services
                 System.Console.ReadLine();
             }
         }
+        #endregion
     }
 }
