@@ -7,6 +7,7 @@ using Console.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 using Test.Application.App;
 using Test.Application.Infrastructure.Repositories;
+using Test.Application.App.ClassCollections;
 
 internal class Program
 {
@@ -17,9 +18,11 @@ internal class Program
 
     static void MainMenu()
     {
+        var key = "b14ca5898a4e4133bbce2ea2315a1916";
+
         ServiceCollection serviceProvider = new();
         serviceProvider.AddDbContext<AdventureWorksContext>(options =>
-        options.UseSqlServer("Server=.\\SQLTEST;Database=AdventureWorks;User ID=BGMTESTUSER;Password=T35t.2023.*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;"));
+        options.UseSqlServer(EncryptAes.DecryptString(key,"g5PkVXyMvJmffe9jbbFUrkPwujJcvieanBpGLhKYFCZ9i+V9NfUe0AGhJJkKyDQWudSftHjcXGogmcYNmJV2rCccpgpig+7RMNFTfuAiyLoPnKf5igPh+S31Faozh4WHwCBrYvSTbWFUbWQQrndl5533nlsoPSgHY/UxZTFLgUmeT7HVXZ3grfq3CO13sZCRwgop+A4iTuJZre97wtl/nw==")));
 
         serviceProvider.AddSingleton<IEmployeeService, EmployeeService>();
         serviceProvider.AddSingleton<IRepository, Repository>();
@@ -43,6 +46,7 @@ internal class Program
         switch (option)
         {
             case "1":
+                System.Console.Clear();
                 System.Console.ForegroundColor = ConsoleColor.Green;
                 generador.GetEmployees();
                 System.Console.ReadLine();

@@ -37,7 +37,7 @@ namespace Test.Application.Infrastructure.Repositories
             catch (Exception ex)
             {
                 System.Console.ForegroundColor = ConsoleColor.Red;
-                System.Console.WriteLine(ex.Message);
+                System.Console.WriteLine(ex.Message + ": " + ex.InnerException);
                 System.Console.ReadLine();
                 throw new Exception(ex.Message);
             }
@@ -99,7 +99,7 @@ namespace Test.Application.Infrastructure.Repositories
             catch (Exception ex)
             {
                 System.Console.ForegroundColor = ConsoleColor.Red;
-                System.Console.WriteLine(ex.Message);
+                System.Console.WriteLine(ex.Message + ": " + ex.InnerException);
                 System.Console.ReadLine();
                 throw new Exception(ex.Message);
             }
@@ -120,6 +120,8 @@ namespace Test.Application.Infrastructure.Repositories
 
                 file.ReadLine();
 
+                System.Console.WriteLine(fileLocation);
+
                 while ((line = file.ReadLine()) != null)
                 {
                     string[] row = line.Split(separador);
@@ -134,7 +136,7 @@ namespace Test.Application.Infrastructure.Repositories
             catch (Exception ex)
             {
                 System.Console.ForegroundColor = ConsoleColor.Red;
-                System.Console.WriteLine(ex.Message);
+                System.Console.WriteLine(ex.Message + ": " + ex.InnerException);
                 System.Console.ReadLine();
                 throw new Exception(ex.Message);
             }

@@ -50,6 +50,8 @@ namespace Test.Application.Domain.Services
                             " | CurrentFlag: " + item.Rowguid +
                             " | CurrentFlag: " + item.ModifiedDate + " \n");
                     }
+
+                    System.Console.WriteLine(result.Count + " records" + " \n");
                 }
                 else
                 {
@@ -61,7 +63,7 @@ namespace Test.Application.Domain.Services
             catch (Exception ex)
             {
                 System.Console.ForegroundColor = ConsoleColor.Red;
-                System.Console.WriteLine(ex.Message);
+                System.Console.WriteLine(ex.Message + ": " + ex.InnerException);
                 System.Console.ReadLine();
             }
         }
@@ -79,7 +81,7 @@ namespace Test.Application.Domain.Services
             catch (Exception ex)
             {
                 System.Console.ForegroundColor = ConsoleColor.Red;
-                System.Console.WriteLine(ex.Message);
+                System.Console.WriteLine(ex.Message + ": " + ex.InnerException);
                 System.Console.ReadLine();
             }
         }
@@ -96,7 +98,7 @@ namespace Test.Application.Domain.Services
             catch (Exception ex)
             {
                 System.Console.ForegroundColor = ConsoleColor.Red;
-                System.Console.WriteLine(ex.Message);
+                System.Console.WriteLine(ex.Message + ": " + ex.InnerException);
                 System.Console.ReadLine();
             }
         }
