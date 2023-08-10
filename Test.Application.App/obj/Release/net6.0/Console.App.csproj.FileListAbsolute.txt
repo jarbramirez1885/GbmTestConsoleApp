@@ -1,0 +1,15 @@
+D:\repo\PruebaConsole\Console.App\Console.App\bin\Release\net6.0\Console.App.exe
+D:\repo\PruebaConsole\Console.App\Console.App\bin\Release\net6.0\Console.App.deps.json
+D:\repo\PruebaConsole\Console.App\Console.App\bin\Release\net6.0\Console.App.runtimeconfig.json
+D:\repo\PruebaConsole\Console.App\Console.App\bin\Release\net6.0\Console.App.dll
+D:\repo\PruebaConsole\Console.App\Console.App\bin\Release\net6.0\Console.App.pdb
+D:\repo\PruebaConsole\Console.App\Console.App\obj\Release\net6.0\Console.App.csproj.AssemblyReference.cache
+D:\repo\PruebaConsole\Console.App\Console.App\obj\Release\net6.0\Console.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\PruebaConsole\Console.App\Console.App\obj\Release\net6.0\Console.App.AssemblyInfoInputs.cache
+D:\repo\PruebaConsole\Console.App\Console.App\obj\Release\net6.0\Console.App.AssemblyInfo.cs
+D:\repo\PruebaConsole\Console.App\Console.App\obj\Release\net6.0\Console.App.csproj.CoreCompileInputs.cache
+D:\repo\PruebaConsole\Console.App\Console.App\obj\Release\net6.0\Console.App.dll
+D:\repo\PruebaConsole\Console.App\Console.App\obj\Release\net6.0\refint\Console.App.dll
+D:\repo\PruebaConsole\Console.App\Console.App\obj\Release\net6.0\Console.App.pdb
+D:\repo\PruebaConsole\Console.App\Console.App\obj\Release\net6.0\Console.App.genruntimeconfig.cache
+D:\repo\PruebaConsole\Console.App\Console.App\obj\Release\net6.0\ref\Console.App.dll
