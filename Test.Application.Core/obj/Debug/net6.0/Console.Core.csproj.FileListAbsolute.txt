@@ -1,0 +1,12 @@
+D:\repo\PruebaConsole\Console.App\Console.Core\bin\Debug\net6.0\Console.Core.deps.json
+D:\repo\PruebaConsole\Console.App\Console.Core\bin\Debug\net6.0\Console.Core.dll
+D:\repo\PruebaConsole\Console.App\Console.Core\bin\Debug\net6.0\Console.Core.pdb
+D:\repo\PruebaConsole\Console.App\Console.Core\obj\Debug\net6.0\Console.Core.csproj.AssemblyReference.cache
+D:\repo\PruebaConsole\Console.App\Console.Core\obj\Debug\net6.0\Console.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\PruebaConsole\Console.App\Console.Core\obj\Debug\net6.0\Console.Core.AssemblyInfoInputs.cache
+D:\repo\PruebaConsole\Console.App\Console.Core\obj\Debug\net6.0\Console.Core.AssemblyInfo.cs
+D:\repo\PruebaConsole\Console.App\Console.Core\obj\Debug\net6.0\Console.Core.csproj.CoreCompileInputs.cache
+D:\repo\PruebaConsole\Console.App\Console.Core\obj\Debug\net6.0\Console.Core.dll
+D:\repo\PruebaConsole\Console.App\Console.Core\obj\Debug\net6.0\refint\Console.Core.dll
+D:\repo\PruebaConsole\Console.App\Console.Core\obj\Debug\net6.0\Console.Core.pdb
+D:\repo\PruebaConsole\Console.App\Console.Core\obj\Debug\net6.0\ref\Console.Core.dll

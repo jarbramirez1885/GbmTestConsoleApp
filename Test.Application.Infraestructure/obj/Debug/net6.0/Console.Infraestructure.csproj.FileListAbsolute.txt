@@ -1,0 +1,12 @@
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\bin\Debug\net6.0\Console.Infraestructure.deps.json
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\bin\Debug\net6.0\Console.Infraestructure.dll
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\bin\Debug\net6.0\Console.Infraestructure.pdb
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infraestructure.csproj.AssemblyReference.cache
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infraestructure.AssemblyInfoInputs.cache
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infraestructure.AssemblyInfo.cs
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infraestructure.csproj.CoreCompileInputs.cache
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infraestructure.dll
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\refint\Console.Infraestructure.dll
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\Console.Infraestructure.pdb
+D:\repo\PruebaConsole\Console.App\Console.Infraestructure\obj\Debug\net6.0\ref\Console.Infraestructure.dll
