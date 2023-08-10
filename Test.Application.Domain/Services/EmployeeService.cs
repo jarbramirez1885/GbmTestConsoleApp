@@ -60,7 +60,9 @@ namespace Test.Application.Domain.Services
             }
             catch (Exception ex)
             {
+                System.Console.ForegroundColor = ConsoleColor.Red;
                 System.Console.WriteLine(ex.Message);
+                System.Console.ReadLine();
             }
         }
 
@@ -76,8 +78,9 @@ namespace Test.Application.Domain.Services
             }
             catch (Exception ex)
             {
-
+                System.Console.ForegroundColor = ConsoleColor.Red;
                 System.Console.WriteLine(ex.Message);
+                System.Console.ReadLine();
             }
         }
 
@@ -92,7 +95,9 @@ namespace Test.Application.Domain.Services
             }
             catch (Exception ex)
             {
+                System.Console.ForegroundColor = ConsoleColor.Red;
                 System.Console.WriteLine(ex.Message);
+                System.Console.ReadLine();
             }
         }
     }

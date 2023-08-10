@@ -1,12 +1,6 @@
 ﻿using Console.Infrastructure.Console.Core.Entities;
 using Console.Infrastructure.Context;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using Test.Application.Core.Dto;
 using Test.Application.Core.Interfaces;
 using Test.Application.Core.Static;
 
@@ -16,11 +10,15 @@ namespace Test.Application.Infrastructure.Repositories
     {
         public readonly AdventureWorksContext _contextDb;
 
+        #region Construct
         public Repository(AdventureWorksContext contextDb)
         {
             _contextDb = contextDb;
         }
+        #endregion
 
+
+        #region Public methods
         /// <summary>
         /// Get List of Employees
         /// </summary>
@@ -38,6 +36,9 @@ namespace Test.Application.Infrastructure.Repositories
             }
             catch (Exception ex)
             {
+                System.Console.ForegroundColor = ConsoleColor.Red;
+                System.Console.WriteLine(ex.Message);
+                System.Console.ReadLine();
                 throw new Exception(ex.Message);
             }
 
@@ -97,10 +98,17 @@ namespace Test.Application.Infrastructure.Repositories
             }
             catch (Exception ex)
             {
+                System.Console.ForegroundColor = ConsoleColor.Red;
+                System.Console.WriteLine(ex.Message);
+                System.Console.ReadLine();
                 throw new Exception(ex.Message);
             }
         }
 
+        /// <summary>
+        /// Load Records from file type csv ; delimited
+        /// </summary>
+        /// <exception cref="Exception"></exception>
         public void LoadRecords()
         {
             try
@@ -120,38 +128,45 @@ namespace Test.Application.Infrastructure.Repositories
                     _contextDb.SaveChanges();
                 }
 
-                System.Console.WriteLine("Your file was uploaded! Press enter to return to the main menu");
+                System.Console.WriteLine(GeneralMessages.FILEUPLOADED);
                 System.Console.ReadLine();
             }
             catch (Exception ex)
             {
+                System.Console.ForegroundColor = ConsoleColor.Red;
+                System.Console.WriteLine(ex.Message);
+                System.Console.ReadLine();
                 throw new Exception(ex.Message);
             }
         }
 
+        #endregion
+
+        #region Private methods
         private static Employee EmployeeObject(string[] row)
         {
             Employee employee = new()
             {
-                EmployeeId = Convert.ToInt32(row[0]),
-                NationalIdnumber = row[1],
-                ContactId = Convert.ToInt32(row[2]),
-                LoginId = row[3],
-                ManagerId = Convert.ToInt32(row[4]),
-                Title = row[5],
-                BirthDate = Convert.ToDateTime(row[6]),
-                MaritalStatus = row[7],
-                Gender = row[8],
-                HireDate = Convert.ToDateTime(row[9]),
-                SalariedFlag = Convert.ToBoolean(row[10]),
-                VacationHours = Convert.ToInt32(row[11]),
-                SickLeaveHours = Convert.ToInt32(row[12]),
-                CurrentFlag = Convert.ToBoolean(row[13]),
+                NationalIdnumber = row[0],
+                ContactId = Convert.ToInt32(row[1]),
+                LoginId = row[2],
+                ManagerId = Convert.ToInt32(row[3]),
+                Title = row[4],
+                BirthDate = Convert.ToDateTime(row[5]),
+                MaritalStatus = row[6],
+                Gender = row[7],
+                HireDate = Convert.ToDateTime(row[8]),
+                SalariedFlag = Convert.ToBoolean(row[9]),
+                VacationHours = Convert.ToInt16(row[10]),
+                SickLeaveHours = Convert.ToInt16(row[11]),
+                CurrentFlag = Convert.ToBoolean(row[12]),
                 Rowguid = System.Guid.NewGuid(),
-                ModifiedDate = Convert.ToDateTime(row[15])
+                ModifiedDate = Convert.ToDateTime(row[13])
             };
 
             return employee;
         }
+
+        #endregion
     }
 }

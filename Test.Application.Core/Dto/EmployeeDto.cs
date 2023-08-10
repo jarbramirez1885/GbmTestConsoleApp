@@ -19,8 +19,8 @@ namespace Test.Application.Core.Dto
         public string Gender { get; set; } = null!;
         public DateTime HireDate { get; set; }
         public bool? SalariedFlag { get; set; }
-        public int VacationHours { get; set; }
-        public int SickLeaveHours { get; set; }
+        public short VacationHours { get; set; }
+        public short SickLeaveHours { get; set; }
         public bool? CurrentFlag { get; set; }
         public Guid Rowguid { get; set; }
         public DateTime ModifiedDate { get; set; }

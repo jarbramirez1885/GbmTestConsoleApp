@@ -12,7 +12,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-
         MainMenu();
     }
 
@@ -50,6 +49,7 @@ internal class Program
                 break;
             case "2":
                 System.Console.Clear();
+                System.Console.ForegroundColor = ConsoleColor.Green;
                 System.Console.WriteLine(GeneralMessages.LOADINGFILE);
                 generador.LoadRecords();
                 break;
@@ -66,11 +66,21 @@ internal class Program
                 System.Console.ForegroundColor = ConsoleColor.Green;
                 System.Console.WriteLine(GeneralMessages.BYE);
                 System.Console.WriteLine(GeneralMessages.CONFIRM);
-                System.Console.ReadLine();
-                Environment.Exit(1);
-                break;
+
+                string? close = string.Empty;
+                close = System.Console.ReadLine();
+
+                if (close.ToUpper() == "Y")
+                {
+                    Environment.Exit(1);
+                    break;
+                }
+                else
+                {
+                    break;
+                }            
             default:
-                System.Console.ForegroundColor = ConsoleColor.Green;
+                System.Console.ForegroundColor = ConsoleColor.Yellow;
                 System.Console.WriteLine(GeneralMessages.ERROROPMENU);
                 System.Console.ReadLine();
                 break;

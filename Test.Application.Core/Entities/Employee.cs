@@ -66,12 +66,12 @@ public partial class Employee
     /// <summary>
     /// Number of available vacation hours.
     /// </summary>
-    public int VacationHours { get; set; }
+    public short VacationHours { get; set; }
 
     /// <summary>
     /// Number of available sick leave hours.
     /// </summary>
-    public int SickLeaveHours { get; set; }
+    public short SickLeaveHours { get; set; }
 
     /// <summary>
     /// 0 = Inactive, 1 = Active
