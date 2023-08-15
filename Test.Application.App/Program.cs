@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using Test.Application.App;
 using Test.Application.Infrastructure.Repositories;
 using Test.Application.App.ClassCollections;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Json;
 
 internal class Program
 {
@@ -20,9 +22,15 @@ internal class Program
     {
         var key = "b14ca5898a4e4133bbce2ea2315a1916";
 
+        var builder = new ConfigurationBuilder()
+                   .AddJsonFile($"appsettings.json", true, true);
+
+        var config = builder.Build();
+        string? connectionString = config["ConnectionStrings:DefaultConnection"];
+
         ServiceCollection serviceProvider = new();
         serviceProvider.AddDbContext<AdventureWorksContext>(options =>
-        options.UseSqlServer(EncryptAes.DecryptString(key,"g5PkVXyMvJmffe9jbbFUrkPwujJcvieanBpGLhKYFCZ9i+V9NfUe0AGhJJkKyDQWudSftHjcXGogmcYNmJV2rCccpgpig+7RMNFTfuAiyLoPnKf5igPh+S31Faozh4WHwCBrYvSTbWFUbWQQrndl5533nlsoPSgHY/UxZTFLgUmeT7HVXZ3grfq3CO13sZCRwgop+A4iTuJZre97wtl/nw==")));
+        options.UseSqlServer(EncryptAes.DecryptString(key, connectionString)));
 
         serviceProvider.AddSingleton<IEmployeeService, EmployeeService>();
         serviceProvider.AddSingleton<IRepository, Repository>();
@@ -77,7 +85,7 @@ internal class Program
                 else
                 {
                     break;
-                }            
+                }
             default:
                 System.Console.ForegroundColor = ConsoleColor.Yellow;
                 System.Console.WriteLine(GeneralMessages.ERROROPMENU);

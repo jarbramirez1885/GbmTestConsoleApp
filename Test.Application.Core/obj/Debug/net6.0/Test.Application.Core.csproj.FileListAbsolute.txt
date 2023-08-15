@@ -10,3 +10,15 @@ D:\repo\PruebaConsole\Console.App\Test.Application.Core\obj\Debug\net6.0\Test.Ap
 D:\repo\PruebaConsole\Console.App\Test.Application.Core\obj\Debug\net6.0\refint\Test.Application.Core.dll
 D:\repo\PruebaConsole\Console.App\Test.Application.Core\obj\Debug\net6.0\Test.Application.Core.pdb
 D:\repo\PruebaConsole\Console.App\Test.Application.Core\obj\Debug\net6.0\ref\Test.Application.Core.dll
+D:\repo\GbmTestConsoleApp\Test.Application.Core\bin\Debug\net6.0\Test.Application.Core.deps.json
+D:\repo\GbmTestConsoleApp\Test.Application.Core\bin\Debug\net6.0\Test.Application.Core.dll
+D:\repo\GbmTestConsoleApp\Test.Application.Core\bin\Debug\net6.0\Test.Application.Core.pdb
+D:\repo\GbmTestConsoleApp\Test.Application.Core\obj\Debug\net6.0\Test.Application.Core.csproj.AssemblyReference.cache
+D:\repo\GbmTestConsoleApp\Test.Application.Core\obj\Debug\net6.0\Test.Application.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\GbmTestConsoleApp\Test.Application.Core\obj\Debug\net6.0\Test.Application.Core.AssemblyInfoInputs.cache
+D:\repo\GbmTestConsoleApp\Test.Application.Core\obj\Debug\net6.0\Test.Application.Core.AssemblyInfo.cs
+D:\repo\GbmTestConsoleApp\Test.Application.Core\obj\Debug\net6.0\Test.Application.Core.csproj.CoreCompileInputs.cache
+D:\repo\GbmTestConsoleApp\Test.Application.Core\obj\Debug\net6.0\Test.Application.Core.dll
+D:\repo\GbmTestConsoleApp\Test.Application.Core\obj\Debug\net6.0\refint\Test.Application.Core.dll
+D:\repo\GbmTestConsoleApp\Test.Application.Core\obj\Debug\net6.0\Test.Application.Core.pdb
+D:\repo\GbmTestConsoleApp\Test.Application.Core\obj\Debug\net6.0\ref\Test.Application.Core.dll
